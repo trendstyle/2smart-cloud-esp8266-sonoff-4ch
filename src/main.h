@@ -14,10 +14,11 @@ char host[65] = "cloud.2smart.com";
 uint16_t broker_port = 1883;
 // -------------------------------------------------------Production settings
 char device_id[32] = "";                      // DeviceID/ MAC:adress
-const char* product_id = "1635937857328454";  // production id
+const char* product_id = "1729566554575654";  // production id
 // -------------------------------------------------------MQTT variables
 
-const char* device_name = "2Smart Sonoff 4CH";
+const char* device_name = "AUTOMATIC HOME 4ch 8266 Relay";
 const char* device_version = "2";
+const char* firmware_name = "1729566554575654";
 
 void HandleMessage(char* topic, byte* payload, unsigned int length);
