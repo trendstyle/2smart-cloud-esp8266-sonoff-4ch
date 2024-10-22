@@ -18,7 +18,7 @@ const char* product_id = "1729566554575654";  // production id
 // -------------------------------------------------------MQTT variables
 
 const char* device_name = "AUTOMATIC HOME 4ch 8266 Relay";
-const char* device_version = "2";
+const char* device_version = "1";
 const char* firmware_name = "1729566554575654";
 
 void HandleMessage(char* topic, byte* payload, unsigned int length);
